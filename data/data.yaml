@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 11
+names: ['AC', 'AIO PC-Monitor-TV', 'APAR', 'Dispenser', 'Filing Cabinet', 'Kursi', 'Lemari', 'Meja', 'Printer', 'Rak', 'Whiteboard']
+
+roboflow:
+  workspace: suupuushan
+  project: eleven
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/suupuushan/eleven/dataset/1
